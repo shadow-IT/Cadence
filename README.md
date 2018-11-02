@@ -1,4 +1,5 @@
 # Cadence ⏰ :timer_clock:
+[![Build Status](https://travis-ci.org/shadow-IT/Cadence.svg?branch=master)](https://travis-ci.org/shadow-IT/Cadence)
 
 ## Purpose
 **To activate the EKG services for the subscribers, based on their individual configuration. Ensures the subscribers are tested on a custom cadence.**
