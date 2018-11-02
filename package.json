@@ -1,0 +1,18 @@
+{
+  "name": "cadence",
+  "version": "1.0.0",
+  "description": "A service that makes calls to other services on a schedule.",
+  "main": "cadence.js",
+  "scripts": {
+    "dev": "node cadence.js",
+    "start": "NODE_ENV=production node cadence.js",
+    "image": "docker build -t shadowit/cadence . --no-cache"
+  },
+  "author": "Avery Lindley <develop.lindley@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "node-schedule": "^1.3.0"
+  }
+}
