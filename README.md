@@ -6,7 +6,7 @@
 ## API
 | method 	| resource 			| params 				| result 		|
 | ---		| ---				| ---					| ---			|
-| GET 		| /					| N/a 					| TODO 			|
+| GET 		| /				| N/a 					| TODO 			|
 | GET 		| /health			| N/a 					| TODO			|
 TODO
 
