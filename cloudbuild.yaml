@@ -4,7 +4,7 @@ steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
 - name: 'gcr.io/cloud-builders/npm'
-  name: ['test']
+  args: ['test']
 
 # Uses the docker build step to build an image called my-image
 - name: 'gcr.io/cloud-builders/docker'
