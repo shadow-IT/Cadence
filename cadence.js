@@ -25,7 +25,7 @@ app.get('/health' , function(req, res) {
 /* retrieve the subscriptions and their data. */
 // const subs = axios.get('http://subscription:3003/p/cadence')
 // TODO remove subs fake data
-axios.get('http://subscription:3003/api/subscribers')
+axios.get('http://subscription-1-5j648:3003/api/subscribers')
 .then(res => res.data)
 .then(subs => {
 	console.log('Retrieved the subs!:',subs)
